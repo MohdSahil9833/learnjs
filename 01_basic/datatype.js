@@ -1,3 +1,4 @@
+/*
 // primitive datatype (call by value) : string , number , Boolean , null , undefined , symbol , bigint .
 
 const score = 100
@@ -55,3 +56,30 @@ console.log(typeof myFunction)
 //object
 //object
 //function
+
+*/
+//stack (primitive) , heap (non-primitive)
+
+let myYoutubename = "hiteshchoudharydotcom"
+
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    payment: "user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "hitesh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+//hiteshchoudharydotcom
+//chaiaurcode
+//hitesh@google.com
+//hitesh@google.com
